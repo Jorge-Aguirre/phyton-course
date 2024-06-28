@@ -4,8 +4,8 @@ def build_profile(first, last, **user_info):
     user_info['last_name'] = last
     return user_info
 
-user_profile = build_profile('albert', 'einstein',
-                             location='princeton',
-                             field='physics')
+user_profile = build_profile('jorge', 'aguirre', 
+                            location = 'cochabamba', university = 'UMSS',
+                            profession = 'programmer')
 
 print(user_profile)
